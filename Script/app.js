@@ -3,10 +3,10 @@
  * 
  * @author Satnam Singh
  * StudentID: 300875942
- * @date June 2, 2016
+ * @date August 5, 2016
  * 
- * git hub:https://github.com/Satnam1313/Assignment-2-Client-Side-Web-Development
- * website: http://assignment-2-mini-protfolio.azurewebsites.net/
+ * git hub:https://github.com/Satnam1313/Assignment-3-Client-Side-Web-Development
+  website: http://assignment-3-client-side-web-development.azurewebsites.net/
  * @description: This file icontaing the main javascript file for the web site
  */
 
