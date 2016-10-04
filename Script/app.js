@@ -5,7 +5,7 @@
  * StudentID: 300875942
  * @date August 5, 2016
  * 
- * git hub:https://github.com/Satnam1313/Assignment-3-Client-Side-Web-Development
+ * * git hub:https://github.com/Satnam1313/Assignment-3-Client-Side-Web-Development
   website: http://assignment-3-client-side-web-development.azurewebsites.net/
  * @description: This file icontaing the main javascript file for the web site
  */
@@ -17,6 +17,7 @@
 
 
     var xhr;
+    var para;
     // we can use a named function instead of an anonymous function
     // we can use a named function instead of an anonymous function
     function readData() {
@@ -27,7 +28,7 @@
             var load = enteringdata.data;
 
             load.forEach(function(contact) {
-                document.getElementById("paragraphOne").innerHTML = enteringdata.data[0].paragraph_about1;
+               // para = document.getElementById("paragraphOne").innerHTML = enteringdata.data[0].paragraph_about1;
                 document.getElementById("paragraphTwo").innerHTML = enteringdata.data[1].Projects_or;
                 document.getElementById("paragraphThree").innerHTML = enteringdata.data[2].Projects_game;
                 document.getElementById("paragraphFour").innerHTML = enteringdata.data[3].Projects_city;
@@ -50,7 +51,7 @@
 
         readParagraphs();
 
-
+        addEventListener(scrollBy.JSON.parse(xhr.responseText).getElementById("paragraphOne").innerHTML = enteringdata.data[0].paragraph_about1);
     }
 
     // call init funciton when window finishes loading
